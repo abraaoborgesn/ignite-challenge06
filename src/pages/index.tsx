@@ -3,8 +3,14 @@ import { Banner } from '../components/Banner'
 import { Carousel } from '../components/Carousel'
 import { Header } from '../components/Header'
 import { Types } from '../components/TypesOfTrip/Types'
+import { Continent } from '../models/Continent'
+import api from '../services/api'
 
-export default function Home() {
+interface HomeProps {
+  continents: Continent[]
+}
+
+export default function Home({continents}: HomeProps) {
   return (
     <>
       <Header />
@@ -24,11 +30,24 @@ export default function Home() {
         Então escolha seu continente
       </Text>
 
-      <Carousel />
+      <Carousel continents={continents}/>
     
 
     </>
 
 
   )
+}
+
+export async function getStaticProps() {
+  
+  const { data: continents} = await api.get<Continent>('/continents')
+
+  // console.log(continents)
+
+  return {
+    props: {
+      continents
+    }
+  }
 }

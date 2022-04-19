@@ -1,0 +1,866 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "name": "Europa",
+      "title": "O continente mais antigo",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+      "image": "europa.svg",
+      "slug": "europa",
+      "countries": 50,
+      "languages": 60
+    },
+    {
+      "id": 2,
+      "name": "África",
+      "title": "Tem a selva como seu coração",
+      "description": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes. Tem se transformado na ultima década em uma continente cada vez mais católico.",
+      "image": "africa.jpg",
+      "slug": "africa",
+      "countries": 1250,
+      "languages": 80
+    },
+    {
+      "id": 3,
+      "name": "America do Norte",
+      "title": "Onde nasceu o rei do rock: Elvis Presley",
+      "description": "A América do Norte é um subcontinente que compreende a porção setentrional do continente americano. Existem duas formas de classificar esse continente: a primeira considera que a América do Norte é apenas a parte mais setentrional da América, separada da América Central na fronteira entre o México e a Guatemala, a segunda classificação reconhece apenas uma América do Norte e uma América do Sul, traçando o limite no Istmo do Panamá (umas vezes no Canal do Panamá, outras na fronteira entre o Panamá e a Colômbia). Pela última definição, a América do Norte incluiria a América Central Continental e Insular (Caribe).",
+      "image": "americanorte.jpg",
+      "slug": "americadonorte",
+      "countries": 6,
+      "languages": 53
+    },
+    {
+      "id": 4,
+      "name": "America do Sul",
+      "title": "A terra do Cristo Redentor",
+      "description": "A América do Sul é um continente que compreende a porção meridional da América. Também é considerada um subcontinente do continente americano. A sua extensão é de 17 819 100 km², abrangendo 12% da superfície terrestre e 6% da população mundial. Une-se à América Central a norte pelo istmo do Panamá e se separa da Antártida ao sul pelo estreito de Drake. Tem uma extensão de 7 500 km desde o mar do Caribe até ao cabo Horn, ponto extremo sul do continente.",
+      "image": "americaSul.jpg",
+      "slug": "americadosul",
+      "countries": 12,
+      "languages": 9
+    },
+    {
+      "id": 5,
+      "name": "Ásia",
+      "title": "A terra do sol nascente",
+      "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering.",
+      "image": "asia.jpg",
+      "slug": "asia",
+      "countries": 50,
+      "languages": 184
+    },
+    {
+      "id": 6,
+      "name": "Oceania",
+      "title": "A terra dos oceanos",
+      "description": "Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes.",
+      "image": "oceania.jpg",
+      "slug": "oceania",
+      "countries": 16,
+      "languages": 18
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "Hong Kong",
+      "country": "China",
+      "continenteId": 5,
+      "imageFlag": "https://www.significados.com.br/foto/china.jpg",
+      "image": "hongKong.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bangkok",
+      "country": "Thailand",
+      "continenteId": 5,
+      "imageFlag": "https://cdn.xxl.thumbs.canstockphoto.com.br/bangkok-bandeira-vetorial-thailand-formato-clip-arte-vetor_csp43433315.jpg",
+      "image": "https://turistaprofissional.com/wp-content/uploads/2017/11/grand-palace-bangkok.jpg"
+    },
+    {
+      "id": 3,
+      "name": "London",
+      "country": "United Kingdom",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/255px-Flag_of_the_United_Kingdom_%283-5%29.svg.png",
+      "image": "https://cdn.pariscityvision.com/library/image/6623.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Macau",
+      "country": "China",
+      "continenteId": 5,
+      "imageFlag": "https://www.significados.com.br/foto/china.jpg",
+      "image": "https://cdn.falauniversidades.com.br/wp-content/uploads/2021/04/12160541/Macau.jpg"
+    },
+    {
+      "id": 5,
+      "name": "'Singapo're",
+      "country": "Singapore",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/255px-Flag_of_Singapore.svg.png",
+      "image": "https://conteudo.imguol.com.br/c/noticias/d8/2019/02/09/conhecida-como-a-perola-da-asia-cingapura-e-um-dos-maiores-centros-financeiros-do-mundo-1549729914056_v2_900x506.jpg.webp"
+    },
+    {
+      "id": 6,
+      "name": "Paris",
+      "country": "France",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/255px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png",
+      "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-paris-capa2019-01.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Dubai",
+      "country": "UAE",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/255px-Flag_of_the_United_Arab_Emirates.svg.png",
+      "image": "https://assistentedeviagem.com.br/blog/wp-content/uploads/2021/04/dubai-1280x640.jpg"
+    },
+    {
+      "id": 8,
+      "name": "New York City",
+      "country": "US",
+      "continenteId": 3,
+      "imageFlag": "https://static.todamateria.com.br/upload/ba/nd/bandeira_americana_bb.jpg",
+      "image": "https://ci-prod.imgix.net/upload/galeriadeimagens/00205891.jpg?w=555&h=416&fit=crop&auto=compress%2Cformat"
+    },
+    {
+      "id": 9,
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "continenteId": 5,
+      "imageFlag": "http://geo5.net/imagens/bandeira-da-malasia-2000px-350x175.png",
+      "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2012/05/kuala-lumpur-1820944.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Istanbul",
+      "country": "Turkey",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/255px-Flag_of_Turkey.svg.png",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f6/60/caption.jpg?w=700&h=500&s=1"
+    },
+    {
+      "id": 11,
+      "name": "Delhi",
+      "country": "India",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/280px-Flag_of_India.svg.png",
+      "image": "https://www.viajali.com.br/wp-content/uploads/2018/07/nova-deli-1-730x449.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Antalya",
+      "country": "Turkey",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/255px-Flag_of_Turkey.svg.png",
+      "image": "https://images.memphistours.com/large/851ffcd9d6916b26246afcae37d45750.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Shenzhen",
+      "country": "China",
+      "continenteId": 5,
+      "imageFlag": "https://www.significados.com.br/foto/china.jpg",
+      "image": "https://content.r9cdn.net/rimg/dimg/d6/b4/fd470797-city-9007-16886833eb0.jpg?crop=true&width=500&height=300&xhint=2474&yhint=1921"
+    },
+    {
+      "id": 14,
+      "name": "Mumbai",
+      "country": "India",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/280px-Flag_of_India.svg.png",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/4e/55/e6/chhatrapati-shivaji-terminus.jpg?w=700&h=500&s=1"
+    },
+    {
+      "id": 15,
+      "name": "Phuket",
+      "country": "Thailand",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/255px-Flag_of_Thailand.svg.png",
+      "image": "https://www.costacruzeiros.com/content/dam/costa/costa-magazine/articles-magazine/islands/phuket-island/phuket_m.jpg.image.694.390.low.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Rome",
+      "country": "Italy",
+      "continenteId": 1,
+      "imageFlag": "https://static.significados.com.br/foto/bandeira-italia-0-cke.jpg",
+      "image": "https://h8f7z4t2.stackpathcdn.com/wp-content/uploads/2015/10/pontos-turisticos-em-roma.jpg.webp"
+    },
+    {
+      "id": 17,
+      "name": "Tokyo",
+      "country": "Japan",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/290px-Flag_of_Japan.svg.png",
+      "image": "https://coisasdojapao.com/wp-content/uploads/2017/03/Tokyo-Main-Image.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Pattaya",
+      "country": "Thailand",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/255px-Flag_of_Thailand.svg.png",
+      "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/02/pattaya-capital-prostituicao-tailandia-capa.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Taipei",
+      "country": "Taiwan",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/255px-Flag_of_the_Republic_of_China.svg.png",
+      "image": "https://visiteomundo.com/wp-content/uploads/2021/03/taipei-860x860.jpg.webp"
+    },
+    {
+      "id": 20,
+      "name": "Mecca",
+      "country": "Saudi Arabia",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1200px-Flag_of_Saudi_Arabia.svg.png",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/22/a5/00/e7/exterior.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Guangzhou",
+      "country": "China",
+      "continenteId": 5,
+      "imageFlag": "https://www.significados.com.br/foto/china.jpg",
+      "image": "https://content.r9cdn.net/rimg/dimg/87/07/2a86d6b1-city-17708-17ea24f8693.jpg?width=1750&height=1000&xhint=1566&yhint=937&crop=true"
+    },
+    {
+      "id": 22,
+      "name": "Prague",
+      "country": "Czechia",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/800px-Flag_of_the_Czech_Republic.svg.png",
+      "image": "https://lp-cms-production.imgix.net/2021-08/shutterstockRF_300856853.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=75&dpr=1"
+    },
+    {
+      "id": 23,
+      "name": "Medina",
+      "country": "Saudi Arabia",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1200px-Flag_of_Saudi_Arabia.svg.png",
+      "image": "https://i0.wp.com/www.middleeastmonitor.com/wp-content/uploads/2017/04/Al-Masjid-an-Nabawi.jpg?resize=1200%2C800&quality=85&strip=all&zoom=1&ssl=1"
+    },
+    {
+      "id": 24,
+      "name": "Seoul",
+      "country": "South Korea",
+      "continenteId": 5,
+      "imageFlag": "http://geo5.net/imagens/bandeira-coreia-do-sul-2000px-350x233.png",
+      "image": "https://www.kayak.com.br/rimg/himg/8d/79/64/revato-1383973-12136887-729771.jpg?width=1366&height=768&crop=true"
+    },
+    {
+      "id": 25,
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/255px-Flag_of_the_Netherlands.svg.png",
+      "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-amsterda-capa2019-03.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Agra",
+      "country": "India",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/280px-Flag_of_India.svg.png",
+      "image": "https://images.memphistours.com/large/6ce85e47bdf316d708b9d3f0e4f12b4b.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Miami",
+      "country": "US",
+      "continenteId": 3,
+      "imageFlag": "https://static.todamateria.com.br/upload/ba/nd/bandeira_americana_bb.jpg",
+      "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2021/01/GettyImages-543868517.jpg?quality=70&strip=info&resize=680,453"
+    },
+    {
+      "id": 28,
+      "name": "Osaka",
+      "country": "Japan",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/290px-Flag_of_Japan.svg.png",
+      "image": "https://img.itinari.com/page/content/original/3224a413-ec8a-414c-8689-6586abe41c60-istock-1059001732.jpg?ch=DPR&dpr=1&w=994&s=eb164b3afc5988b2b0ace38d792ee5c9"
+    },
+    {
+      "id": 29,
+      "name": "Los Angeles",
+      "country": "US",
+      "continenteId": 3,
+      "imageFlag": "https://static.todamateria.com.br/upload/ba/nd/bandeira_americana_bb.jpg",
+      "image": "https://www.visiteosusa.com.br/sites/default/files/styles/hero_l/public/images/hero_media_image/2017-01/Getty_515070156_EDITORIALONLY_LosAngeles_HollywoodBlvd_Web72DPI_0.jpg?itok=lst_2_5d"
+    },
+    {
+      "id": 30,
+      "name": "Shanghai",
+      "country": "China",
+      "continenteId": 5,
+      "imageFlag": "https://www.significados.com.br/foto/china.jpg",
+      "image": "https://caosplanejado.com/wp-content/uploads/2019/01/shangai-1-1.png"
+    },
+    {
+      "id": 31,
+      "name": "Ho Chi Minh",
+      "country": "Vietnam",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/800px-Flag_of_Vietnam.svg.png",
+      "image": "https://www.tripsavvy.com/thmb/8fDt6mBZuHktHVm1fie2XVv4KI0=/900x0/filters:no_upscale():max_bytes(150000):strip_icc():gifv():format(webp)/ho-chi-minh-city-at-night-22c7df816ce4493eb0e86cf54fe03309.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Denpasar",
+      "country": "Indonesia",
+      "continenteId": 5,
+      "imageFlag": "http://geo5.net/imagens/bandeira-da-indonesia-2000px.png",
+      "image": "https://cdn.travelsafe-abroad.com/wp-content/uploads/denpasar-bali.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Barcelona",
+      "country": "Spain",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/255px-Flag_of_Spain.svg.png",
+      "image": "https://i0.wp.com/www.eurodicas.com.br/wp-content/uploads/2020/06/Morar-em-Barcelona.jpg?w=1360&ssl=1"
+    },
+    {
+      "id": 34,
+      "name": "Las Vegas",
+      "country": "US",
+      "continenteId": 3,
+      "imageFlag": "https://static.todamateria.com.br/upload/ba/nd/bandeira_americana_bb.jpg",
+      "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2019/01/gettyimages-717166755.jpg?quality=70&strip=info&w=920?quality=70&strip=info&w=636"
+    },
+    {
+      "id": 35,
+      "name": "Milan",
+      "country": "Italy",
+      "continenteId": 1,
+      "imageFlag": "https://static.significados.com.br/foto/bandeira-italia-0-cke.jpg",
+      "image": "https://www.oficinadeinverno.com.br/blog/wp-content/uploads/2020/07/oficina-de-inverno-o-que-fazer-em-milao-pontos-turisticos-de-milao-duomo-de-milano-catedral-de-milao.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Chennai",
+      "country": "India",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/280px-Flag_of_India.svg.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Chennai_-_bird%27s-eye_view.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Vienna",
+      "country": "Austria",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/255px-Flag_of_Austria.svg.png",
+      "image": "https://thenomadvisor.com/wp-content/uploads/2019/04/wheretostayinvienna-780x520.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Johor Bahru",
+      "country": "Malaysia",
+      "continenteId": 5,
+      "imageFlag": "http://geo5.net/imagens/bandeira-da-malasia-2000px-350x175.png",
+      "image": "https://content.r9cdn.net/rimg/dimg/2f/8e/5e54c6c2-city-44529-1732ead8292.jpg?crop=true&width=500&height=300&xhint=3180&yhint=1735"
+    },
+    {
+      "id": 39,
+      "name": "Jaipur",
+      "country": "India",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/280px-Flag_of_India.svg.png",
+      "image": "https://lh3.googleusercontent.com/FqXvailyyIAehQ2Imh_8G1lU8hc-Yy-EQ8iZtNocgLaYD_cmVreNAttCWuxwu8Nm"
+    },
+    {
+      "id": 40,
+      "name": "Cancun",
+      "country": "Mexico",
+      "continenteId": 3,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/280px-Flag_of_Mexico.svg.png",
+      "image": "https://r4t2s9v3.stackpathcdn.com/wp-content/uploads/2021/07/cancun-todas-as-dicas.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Berlin",
+      "country": "Germany",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png",
+      "image": "https://www.alpadia.com/sites/default/files/styles/hero_banner_md/public/school/featured/berlin-school-hero-1.jpg?itok=tAS8nW9K"
+    },
+    {
+      "id": 42,
+      "name": "Cairo",
+      "country": "Egypt",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/255px-Flag_of_Egypt.svg.png",
+      "image": "https://visiteomundo.com/wp-content/uploads/2020/09/Cairo-1-860x860.jpg.webp"
+    },
+    {
+      "id": 43,
+      "name": "Athens",
+      "country": "Greece",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/255px-Flag_of_Greece.svg.png",
+      "image": "https://lp-cms-production.imgix.net/2021-05/shutterstockRF_1193397715.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=75&dpr=1"
+    },
+    {
+      "id": 44,
+      "name": "Orlando",
+      "country": "US",
+      "continenteId": 3,
+      "imageFlag": "https://static.todamateria.com.br/upload/ba/nd/bandeira_americana_bb.jpg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/09/e0/eb/universal-s-islands-of.jpg?w=600&h=400&s=1"
+    },
+    {
+      "id": 45,
+      "name": "Moscow",
+      "country": "Russia",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/255px-Flag_of_Russia.svg.png",
+      "image": "https://www.planete-energies.com/sites/default/files/styles/media_full_width_940px/public/thumbnails/image/moscow.jpg?itok=J_vRU4rA"
+    },
+    {
+      "id": 46,
+      "name": "Venice",
+      "country": "Italy",
+      "continenteId": 1,
+      "imageFlag": "https://static.significados.com.br/foto/bandeira-italia-0-cke.jpg",
+      "image": "https://lp-cms-production.imgix.net/2021-09/shutterstockRF_696042793.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=75&dpr=1"
+    },
+    {
+      "id": 47,
+      "name": "Madrid",
+      "country": "Spain",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/255px-Flag_of_Spain.svg.png",
+      "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2016/10/madri-espanha.jpeg?quality=70&strip=info&w=858?quality=70&strip=info&w=636"
+    },
+    {
+      "id": 48,
+      "name": "Ha long",
+      "country": "Vietnam",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/800px-Flag_of_Vietnam.svg.png",
+      "image": "https://quantocustaviajar.com/blog/wp-content/uploads/2017/12/ha-long-bay.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Riyadh",
+      "country": "Saudi Arabia",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/255px-Flag_of_Saudi_Arabia.svg.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/300px-Riyadh_Skyline.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Dublin",
+      "country": "Ireland",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg",
+      "image": "https://i0.wp.com/www.eurodicas.com.br/wp-content/uploads/2020/12/morar-em-dublin.jpg?w=1360&ssl=1"
+    },
+    {
+      "id": 51,
+      "name": "Florence",
+      "country": "Italy",
+      "continenteId": 1,
+      "imageFlag": "https://static.significados.com.br/foto/bandeira-italia-0-cke.jpg",
+      "image": "https://ci-prod.imgix.net/upload/galeriadeimagens/00209345.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Ha Noi",
+      "country": "Vietnam",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/800px-Flag_of_Vietnam.svg.png",
+      "image": "https://a.cdn-hotels.com/gdcs/production144/d1394/a304783d-6dc9-4bb2-9239-d124a16a154e.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Toronto",
+      "country": "Canada",
+      "continenteId": 3,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/305px-Flag_of_Canada_%28Pantone%29.svg.png",
+      "image": "https://etacanadavisa.com.br/main/wp-content/uploads/2017/09//1505765941_image1-830x553.jpeg"
+    },
+    {
+      "id": 54,
+      "name": "Johannesburg",
+      "country": "South Africa",
+      "continenteId": 2,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/255px-Flag_of_South_Africa.svg.png",
+      "image": "https://bfexpedition.com.br/wp-content/uploads/2020/08/Johannesburg-City-BF-Expedition.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Sydney",
+      "country": "Australia",
+      "continenteId": 6,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/255px-Flag_of_Australia.svg.png",
+      "image": "https://www.viajenaviagem.com/wp-content/uploads/2016/02/sydney-intro-opera-1920x640-1.jpg"
+    },
+    {
+      "id": 56,
+      "name": "Munich",
+      "country": "Germany",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png",
+      "image": "https://delugarnenhum.com/wp-content/uploads/2021/01/o-que-fazer-em-munich-1024x675.jpg"
+    },
+    {
+      "id": 57,
+      "name": "Jakarta",
+      "country": "Indonesia",
+      "continenteId": 5,
+      "imageFlag": "http://geo5.net/imagens/bandeira-da-indonesia-2000px.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Jakarta_Skyline_Part_2.jpg/800px-Jakarta_Skyline_Part_2.jpg"
+    },
+    {
+      "id": 58,
+      "name": "Beijing",
+      "country": "China",
+      "continenteId": 5,
+      "imageFlag": "https://www.significados.com.br/foto/china.jpg",
+      "image": "https://i0.wp.com/quicksilvertranslate.com/wp-content/uploads/iu-10-3.jpeg?resize=710%2C400&ssl=1"
+    },
+    {
+      "id": 59,
+      "name": "St. Petersburg",
+      "country": "Russia",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/255px-Flag_of_Russia.svg.png",
+      "image": "https://www.kiwi.com/stories/wp-content/uploads/2020/01/shutterstock_721809433-1.jpg"
+    },
+    {
+      "id": 60,
+      "name": "Brussels",
+      "country": "Belgium",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/196px-Flag_of_Belgium.svg.png",
+      "image": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltb5cb5d32753041a6/61bc44b0abe5293e65780e91/US_Brussels_Belgium_Header.jpg?width=1680&auto=webp"
+    },
+    {
+      "id": 61,
+      "name": "Jerusalem",
+      "country": "Israel",
+      "continenteId": 5,
+      "imageFlag": "https://http2.mlstatic.com/D_NQ_NP_732180-MLB43783661010_102020-O.jpg",
+      "image": "https://mapanamao.com.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2016/05/o-que-fazer-em-jerusalem-scaled.jpg.webp"
+    },
+    {
+      "id": 62,
+      "name": "Budapest",
+      "country": "Hungary",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/255px-Flag_of_Hungary.svg.png",
+      "image": "https://lp-cms-production.imgix.net/2021-12/GettyRF_588427513.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850"
+    },
+    {
+      "id": 63,
+      "name": "Lisbon",
+      "country": "Portugal",
+      "continenteId": 1,
+      "imageFlag": "https://www.significados.com.br/foto/bandeira-atual-de-portugal.png",
+      "image": "https://i.guim.co.uk/img/media/bf48c81421313e74475763bd7dcbe9ac6735de97/388_666_6112_3668/master/6112.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=82a620182f39342739d1401ab488ff44"
+    },
+    {
+      "id": 64,
+      "name": "Dammam",
+      "country": "Saudi Arabia",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/255px-Flag_of_Saudi_Arabia.svg.png",
+      "image": "https://www.cruisemapper.com/images/ports/10144-bc7d0d8647.jpg"
+    },
+    {
+      "id": 65,
+      "name": "Penang Island",
+      "country": "Malaysia",
+      "continenteId": 5,
+      "imageFlag": "http://geo5.net/imagens/bandeira-da-malasia-2000px.png",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/9f/b7/98/photo8jpg.jpg?w=700&h=500&s=1"
+    },
+    {
+      "id": 66,
+      "name": "Herkalion",
+      "country": "Greece",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/255px-Flag_of_Greece.svg.png",
+      "image": "https://cdn.xxl.thumbs.canstockphoto.com.br/vista-heraklion-anoitecer-cidade-banco-de-imagem_csp83797360.jpg"
+    },
+    {
+      "id": 67,
+      "name": "Kyoto",
+      "country": "Japan",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/290px-Flag_of_Japan.svg.png",
+      "image": "https://www.vounajanela.com/wp-content/uploads/2020/01/kyoto-japao-1-1.jpg"
+    },
+    {
+      "id": 68,
+      "name": "Zhuhai",
+      "country": "China",
+      "continenteId": 5,
+      "imageFlag": "https://www.significados.com.br/foto/china.jpg",
+      "image": "https://planetofhotels.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Zhuhai.jpg"
+    },
+    {
+      "id": 69,
+      "name": "Vancouver",
+      "country": "Canada",
+      "continenteId": 3,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/305px-Flag_of_Canada_%28Pantone%29.svg.png",
+      "image": "https://mundoviajar.com.br/wp-content/uploads/2018/11/Vancouver4.jpg"
+    },
+    {
+      "id": 70,
+      "name": "Chiang Mai",
+      "country": "Thailand",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/255px-Flag_of_Thailand.svg.png",
+      "image": "https://a.cdn-hotels.com/gdcs/production9/d679/184d7edf-5c3a-470c-8529-b0085d6d5b0e.jpg?impolicy=fcrop&w=1600&h=1066&q=medium"
+    },
+    {
+      "id": 71,
+      "name": "Copenhagen",
+      "country": "Denmark",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/225px-Flag_of_Denmark.svg.png",
+      "image": "https://www.essemundoenosso.com.br/wp-content/uploads/2018/10/Dicas-de-Copenhagen-Destaque-ok.jpg"
+    },
+    {
+      "id": 72,
+      "name": "San Francisco",
+      "country": "US",
+      "continenteId": 3,
+      "imageFlag": "https://static.todamateria.com.br/upload/ba/nd/bandeira_americana_bb.jpg",
+      "image": "https://estadosunidosbrasil.com.br/files/2013/05/sanfrancisco-635x425.jpg"
+    },
+    {
+      "id": 73,
+      "name": "Melbourne",
+      "country": "Australia",
+      "continenteId": 6,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/255px-Flag_of_Australia.svg.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Melbourne_skyline_sor.jpg"
+    },
+    {
+      "id": 74,
+      "name": "Krakow",
+      "country": "Poland",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1024px-Flag_of_Poland.svg.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Krakow_rynek_01.jpg/800px-Krakow_rynek_01.jpg"
+    },
+    {
+      "id": 75,
+      "name": "Marrakech",
+      "country": "Morocco",
+      "continenteId": 5,
+      "imageFlag": "hongKong.svg",
+      "image": "hongKong.jpg"
+    },
+    {
+      "id": 76,
+      "name": "Kolkatta",
+      "country": "India",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/280px-Flag_of_India.svg.png",
+      "image": "https://www.tripsavvy.com/thmb/vOsVUgkBhTmj3lntYNu-qBswRVM=/3668x2751/smart/filters:no_upscale()/victoria-memorial--kolkata--india-1140726002-95549087f08e4bafb44c1a71179a8ceb.jpg"
+    },
+    {
+      "id": 77,
+      "name": "Cebu",
+      "country": "Philippines",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/6b/1b/e6/i-am-blessed-to-be-back.jpg?w=600&h=400&s=1"
+    },
+    {
+      "id": 78,
+      "name": "Auckland",
+      "country": "New Zealand",
+      "continenteId": 6,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+      "image": "https://lh3.googleusercontent.com/wsrpL87JlS_vSsdMRPUuwHCwwX4OtKbs2L4yPiNxK1sbWjCDK-7uJhcvvIyonts2XA"
+    },
+    {
+      "id": 79,
+      "name": "Tel Aviv",
+      "country": "Israel",
+      "continenteId": 5,
+      "imageFlag": "https://http2.mlstatic.com/D_NQ_NP_732180-MLB43783661010_102020-O.jpg",
+      "image": "https://www.flytap.com/-/media/Flytap/new-tap-pages/destinations/israel/tel-aviv/destinations-tel-aviv-banner-mobile-1024x553.jpg"
+    },
+    {
+      "id": 80,
+      "name": "Guilin",
+      "country": "China",
+      "continenteId": 5,
+      "imageFlag": "https://www.significados.com.br/foto/china.jpg",
+      "image": "https://visiteomundo.com/wp-content/uploads/2020/09/Guilin-1-860x860.jpg.webp"
+    },
+    {
+      "id": 81,
+      "name": "Honolulu",
+      "country": "US",
+      "continenteId": 3,
+      "imageFlag": "https://static.todamateria.com.br/upload/ba/nd/bandeira_americana_bb.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Honolulu01_%28cropped%29.JPG"
+    },
+    {
+      "id": 82,
+      "name": "Hurgada",
+      "country": "Egypt",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/255px-Flag_of_Egypt.svg.png",
+      "image": "https://blogvidanoegito.files.wordpress.com/2020/06/screen-shot-2020-06-11-at-2.18.31-pm.png?w=1200&h=400&crop=1"
+    },
+    {
+      "id": 83,
+      "name": "Warsaw",
+      "country": "Poland",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/1024px-Flag_of_Poland.svg.png",
+      "image": "https://www.kiwi.com/stories/wp-content/uploads/2021/10/shutterstock_1486805192-1000x667.jpg"
+    },
+    {
+      "id": 84,
+      "name": "Mugla",
+      "country": "Turkey",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/255px-Flag_of_Turkey.svg.png",
+      "image": "https://content.r9cdn.net/rimg/dimg/fb/20/8ad55771-city-33647-16839cc5282.jpg?crop=true&width=568&height=320&xhint=1978&yhint=1362"
+    },
+    {
+      "id": 85,
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "continenteId": 4,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1280px-Flag_of_Argentina.svg.png",
+      "image": "https://www.daninoce.com.br/wp-content/uploads/2018/01/o-que-voce-precisa-saber-antes-de-ir-a-buenos-aires-dani-noce-imagem-destaque-960x625.jpg"
+    },
+    {
+      "id": 86,
+      "name": "Chiba",
+      "country": "Japan",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/290px-Flag_of_Japan.svg.png",
+      "image": "https://a3.cdn.japantravel.com/photo/54715-191877/840x560!/chiba-a-taste-of-chiba-s-heritage-191877.jpg"
+    },
+    {
+      "id": 87,
+      "name": "Frankfurt",
+      "country": "Germany",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Skyline_Frankfurt_am_Main_2015.jpg/800px-Skyline_Frankfurt_am_Main_2015.jpg"
+    },
+    {
+      "id": 88,
+      "name": "Stockholm",
+      "country": "Sweden",
+      "continenteId": 1,
+      "imageFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6vgL2snYH7lefIilA-kQHqJtvBGKeV7PNQg&usqp=CAU",
+      "image": "https://www.eurodicas.com.br/wp-content/uploads/2018/04/estocolmo-1200x900.jpg"
+    },
+    {
+      "id": 89,
+      "name": "Lima",
+      "country": "Peru",
+      "continenteId": 4,
+      "imageFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRexL4qfzycVw8EpknvI7Oq3Q-_7AmJl_4fTA&usqp=CAU",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTptOUgAjLKNNZrwSEj_9QW_H1uOy-Ta0a2w&usqp=CAU"
+    },
+    {
+      "id": 90,
+      "name": "Da Nang",
+      "country": "Vietnam",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/800px-Flag_of_Vietnam.svg.png",
+      "image": "https://static.bangkokpost.com/media/content/20180926/2932818.jpg"
+    },
+    {
+      "id": 91,
+      "name": "Batam",
+      "country": "Indonesia",
+      "continenteId": 5,
+      "imageFlag": "http://geo5.net/imagens/bandeira-da-indonesia-2000px.png",
+      "image": "https://thumbs.dreamstime.com/z/as-boas-vindas-ao-monumento-de-batam-na-colina-s%C3%A3o-um-marco-ic%C3%B4nico-indon%C3%A9sia-221711942.jpg"
+    },
+    {
+      "id": 92,
+      "name": "Nice",
+      "country": "France",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/255px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png",
+      "image": "https://f7j8i5n9.stackpathcdn.com/wp-content/uploads/2015/11/VistadacidadedeNice.jpg"
+    },
+    {
+      "id": 93,
+      "name": "Fukuoka",
+      "country": "Japan",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/290px-Flag_of_Japan.svg.png",
+      "image": "https://www.onde-e-quando.net/site/images/illustration/fukuoka.jpg"
+    },
+    {
+      "id": 94,
+      "name": "Abu Dabi",
+      "country": "UAE",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/255px-Flag_of_the_United_Arab_Emirates.svg.png",
+      "image": "https://viagemeturismo.abril.com.br/wp-content/uploads/2017/12/istock-517465184.jpg?quality=70&strip=info&resize=680,453"
+    },
+    {
+      "id": 95,
+      "name": "Jeju",
+      "country": "South Korea",
+      "continenteId": 5,
+      "imageFlag": "http://geo5.net/imagens/bandeira-coreia-do-sul-2000px-350x233.png",
+      "image": "https://gooutside.com.br/wp-content/uploads/sites/3/2021/10/shutterstock_790499734-e1634251663720.jpg"
+    },
+    {
+      "id": 96,
+      "name": "Porto",
+      "country": "Portugal",
+      "continenteId": 1,
+      "imageFlag": "https://www.significados.com.br/foto/bandeira-atual-de-portugal.png",
+      "image": "https://www.viagensecaminhos.com/wp-content/uploads/2020/10/porto-portugal-696x464.jpg"
+    },
+    {
+      "id": 97,
+      "name": "Rhodes",
+      "country": "Greece",
+      "continenteId": 1,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/255px-Flag_of_Greece.svg.png",
+      "image": "https://v9v6u8a5.stackpathcdn.com/wp-content/uploads/2020/12/rodes-grecia-vista.jpg"
+    },
+    {
+      "id": 98,
+      "name": "Rio de Janeiro",
+      "country": "Brazil",
+      "continenteId": 4,
+      "imageFlag": "https://static.todamateria.com.br/upload/ba/nd/bandeiradobrasil-2-cke.jpg",
+      "image": "https://www.costacruzeiros.com/content/dam/costa/costa-magazine/article-images/what-to-see-in-rio-de-janeiro/rio-de-janeiro-panorama_YuJas-Shutterstock_1.jpg.image.648.487.high.jpg"
+    },
+    {
+      "id": 99,
+      "name": "Rhodes",
+      "country": "Thailand",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/255px-Flag_of_Thailand.svg.png",
+      "image": "https://www.segurospromo.com.br/blog/wp-content/uploads/2020/07/ilha-de-rodes-capa.jpg"
+    },
+    {
+      "id": 100,
+      "name": "Bangalore",
+      "country": "India",
+      "continenteId": 5,
+      "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/280px-Flag_of_India.svg.png",
+      "image": "https://cdn.travelsafe-abroad.com/wp-content/uploads/593193.jpg"
+    }
+  ]
+}

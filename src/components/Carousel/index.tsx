@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
+import api from '../../services/api'
 
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -7,8 +8,15 @@ import 'swiper/css/autoplay'
 
 import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper'
 import { Flex, Heading } from '@chakra-ui/react'
+import { Continent } from '../../models/Continent'
+import Link from 'next/link'
 
-export function Carousel() {
+interface CarouselProps {
+    continents: Continent[]
+}
+
+export function Carousel({continents}: CarouselProps) {
+    
     return (
         <Flex
             maxW='1240px'
@@ -24,50 +32,54 @@ export function Carousel() {
                 navigation={true}
                 pagination={true}
                 mousewheel={true}
-                keyboard={true}                
+                keyboard={true}
                 modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
-                autoplay={{delay:4000, pauseOnMouseEnter: true}}
+                autoplay={{ delay: 4000, pauseOnMouseEnter: true }}
                 loop
             >
-                <SwiperSlide
+                {continents.map( continent => (
+                    <SwiperSlide
                     style={{ width: '100%', height: '100%' }}
+                    key={continent.id}
                 >
                     <Flex
-                        bgImage='/europa.svg'
+                        bgImage={continent.image}
                         w='100%'
                         h='100%'
+                        bgPosition={["100% 20%", "100% 20%", "100% 30%"]}
                         align='center'
                         justify='center'
-                        
-                    >
-                        <a href="/">
-                            <Heading
-                                color='light.headingsAndText'
-                                fontSize={['24px', '24px', '48px']}
-                                fontWeight='700'
-                                textAlign='center'                  
-                            >
-                                Europa
-                            </Heading>
+                        bgSize='cover'
 
-                            <Heading
-                                color='light.info'
-                                fontSize={['14px', '14px', '24px']}
-                                fontWeight='700'
-                                textAlign='center'
-                                mt={['12px', '12px', '16px']}
-                            >
-                                O continente mais antigo.
-                            </Heading>
-                        </a>
+                    >
+
+                        <Link href={`/continents/${continent.slug}`}>
+                            <a >
+                                <Heading
+                                    color='light.headingsAndText'
+                                    fontSize={['24px', '24px', '48px']}
+                                    fontWeight='700'
+                                    textAlign='center'
+                                >
+                                    {continent.name}
+                                </Heading>
+                                <Heading
+                                    color='light.info'
+                                    fontSize={['14px', '14px', '24px']}
+                                    fontWeight='700'
+                                    textAlign='center'
+                                    mt={['12px', '12px', '16px']}
+                                >
+                                    {continent.title}
+                                </Heading>
+                            </a>
+                        </Link>
 
 
                     </Flex>
                 </SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
+                ))}
+                
             </Swiper>
         </Flex>
     )

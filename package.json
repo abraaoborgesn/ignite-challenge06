@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "server": "json-server db.json --p 3333",
     "start": "next start",
     "lint": "next lint"
   },
@@ -15,6 +16,7 @@
     "@emotion/styled": "^11.8.1",
     "@types/node": "^17.0.23",
     "@types/react": "^18.0.3",
+    "axios": "^0.26.1",
     "framer-motion": "^6.2.10",
     "next": "12.1.5",
     "react": "18.0.0",
