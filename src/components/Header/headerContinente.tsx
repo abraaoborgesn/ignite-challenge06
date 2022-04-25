@@ -7,7 +7,7 @@ export function HeaderContinente() {
             as='header'
             w='100%'
             maxWidth={1480}
-            h={['50px', '50px','100px']}
+            h={['50px', '50px', '100px']}
             mx='auto'
             align='center'
             justify='center'
@@ -20,7 +20,11 @@ export function HeaderContinente() {
                 </Link>
             </Flex>
 
-            <Image src='/logo.svg' alt='logo' h={['20px', '20px', '46px']} w={['81px', '81px', '186px']} />
-        </Flex>
+            <Link href='/'>
+                <a>
+                    <Image src='/logo.svg' alt='logo' h={['20px', '20px', '46px']} w={['81px', '81px', '186px']} />
+                </a>
+            </Link>
+        </Flex >
     )
 }

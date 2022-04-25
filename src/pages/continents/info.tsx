@@ -94,7 +94,7 @@ export function Info({ continent, citys }: InfoProps) {
                             align='center'
                             color='Highlight'
                         >
-                            24
+                            {citys.length}
                         </Text>
                         <Text
                             fontSize={['lg', 'lg', '2xl']}
@@ -139,7 +139,7 @@ export function Info({ continent, citys }: InfoProps) {
                                 maxW='256px'
                                 h='279px'
                             >
-                                <Image src={`${city.image}`} h='173px' w='256px' borderTopRadius='base' />
+                                <Image src={`${city.image}`} alt={city.name} h='173px' w='256px' borderTopRadius='base'/>
 
                                 <Flex
                                     w='256px'
@@ -150,6 +150,7 @@ export function Info({ continent, citys }: InfoProps) {
                                     borderColor='Highlight_50'
                                 >
                                     <Box ml='24px'>
+
                                         <Heading
                                             fontWeight='600'
                                             fontSize={['xl']}
@@ -167,7 +168,7 @@ export function Info({ continent, citys }: InfoProps) {
                                         </Text>
                                     </Box>
                                     <Flex align='center' mr='24px'>
-                                        <Image src={`${city.imageFlag}`} boxSize='30px' borderRadius='full'/>
+                                        <Image src={`${city.imageFlag}`} alt={`Bandeira ${city.country}`} boxSize='30px' borderRadius='full' />
                                     </Flex>
                                 </Flex>
 
