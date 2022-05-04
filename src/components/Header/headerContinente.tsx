@@ -22,7 +22,12 @@ export function HeaderContinente() {
 
             <Link href='/'>
                 <a>
-                    <Image src='/logo.svg' alt='logo' h={['20px', '20px', '46px']} w={['81px', '81px', '186px']} />
+                    <Image
+                        src='/logo.svg'
+                        alt='logo'
+                        h={['20px', '20px', '46px']}
+                        w={['81px', '81px', '186px']}
+                    />
                 </a>
             </Link>
         </Flex >

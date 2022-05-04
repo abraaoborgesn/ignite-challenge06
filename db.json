@@ -15,7 +15,7 @@
             "name": "África",
             "title": "Tem a selva como seu coração",
             "description": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes. Tem se transformado na ultima década em uma continente cada vez mais católico.",
-            "image": "africa.jpeg",
+            "image": "africa.jpg",
             "slug": "africa",
             "countries": 1250,
             "languages": 80
@@ -69,7 +69,7 @@
             "country": "China",
             "continenteId": 5,
             "imageFlag": "https://www.significados.com.br/foto/china.jpg",
-            "image": "hongKong.jpg"
+            "image": "https://cdn2.civitatis.com/hong-kong/hong-kong/guia/hong-kong.jpg"
         },
         {
             "id": 2,
@@ -85,7 +85,7 @@
             "country": "United Kingdom",
             "continenteId": 1,
             "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/255px-Flag_of_the_United_Kingdom_%283-5%29.svg.png",
-            "image": "https://cdn.pariscityvision.com/library/image/6623.jpg"
+            "image": "https://www.ie.com.br/wp-content/uploads/2021/11/clima-londres1.jpeg"
         },
         {
             "id": 4,
@@ -125,7 +125,7 @@
             "country": "US",
             "continenteId": 3,
             "imageFlag": "https://static.todamateria.com.br/upload/ba/nd/bandeira_americana_bb.jpg",
-            "image": "https://ci-prod.imgix.net/upload/galeriadeimagens/00205891.jpg?w=555&h=416&fit=crop&auto=compress%2Cformat"
+            "image": "https://www.visiteosusa.com.br/sites/default/files/styles/us_media_l_2000x704/public/2020-06/79056eb7-3b14-4b2c-9ee6-3c02412dfc97.jpeg?h=bb8d88c6&itok=t7_ZGV_A"
         },
         {
             "id": 9,
@@ -493,7 +493,7 @@
             "country": "South Africa",
             "continenteId": 2,
             "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/255px-Flag_of_South_Africa.svg.png",
-            "image": "https://bfexpedition.com.br/wp-content/uploads/2020/08/Johannesburg-City-BF-Expedition.jpg"
+            "image": "https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2020/05/gettyimages-1170679782_-e1592921872711.jpg"
         },
         {
             "id": 55,
@@ -741,7 +741,7 @@
             "country": "Argentina",
             "continenteId": 4,
             "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1280px-Flag_of_Argentina.svg.png",
-            "image": "https://www.daninoce.com.br/wp-content/uploads/2018/01/o-que-voce-precisa-saber-antes-de-ir-a-buenos-aires-dani-noce-imagem-destaque-960x625.jpg"
+            "image": "https://www.cvc.com.br/dicas-de-viagem/wp-content/uploads/2019/12/buenos-aires-topo-1096407500.jpg"
         },
         {
             "id": 86,

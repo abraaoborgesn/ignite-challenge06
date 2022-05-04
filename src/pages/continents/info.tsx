@@ -1,6 +1,9 @@
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import { BiInfoCircle } from 'react-icons/bi'
 import { Continent } from "../../models/Continent";
+import { Tooltip } from '@chakra-ui/react'
+
+import { FiSearch } from 'react-icons/fi'
 
 interface InfoProps {
     continent: {
@@ -37,6 +40,7 @@ export function Info({ continent, citys }: InfoProps) {
                 align='center'
                 justify='space-between'
                 flexWrap='wrap'
+
             >
                 <Text
                     w={['343px', '343px', '600px']}
@@ -57,6 +61,7 @@ export function Info({ continent, citys }: InfoProps) {
                             lineHeight={['2xl', '2xl', '4xl']}
                             align='center'
                             color='Highlight'
+                            textAlign={['left', 'left', 'center']}
                         >
                             {continent.countries}
                         </Text>
@@ -75,6 +80,7 @@ export function Info({ continent, citys }: InfoProps) {
                             lineHeight={['2xl', '2xl', '4xl']}
                             align='center'
                             color='Highlight'
+                            textAlign={['left', 'left', 'center']}
                         >
                             {continent.languages}
                         </Text>
@@ -93,20 +99,33 @@ export function Info({ continent, citys }: InfoProps) {
                             lineHeight={['2xl', '2xl', '4xl']}
                             align='center'
                             color='Highlight'
+                            textAlign={['left', 'left', 'center']}
                         >
                             {citys.length}
                         </Text>
-                        <Text
-                            fontSize={['lg', 'lg', '2xl']}
-                            fontWeight='600'
-                            lineHeight={['3xl', '3xl', '4xl']}
-                        >
-                            cidades +100
-                        </Text>
+                        <Flex align='center'>
+                            <Text
+                                fontSize={['lg', 'lg', '2xl']}
+                                fontWeight='600'
+                                lineHeight={['3xl', '3xl', '4xl']}
+                                w={['120px', '165px', '165px']}
+                            >
+                                cidades +100
+                            </Text>
+
+                            <Tooltip label={`Veja abaixo as ${citys.length} cidades mais visitadas da ${continent.name} que estão entre as 100 mais visitadas do mundo.`} fontSize='md'>
+                                <span>
+                                    <BiInfoCircle size='16px' color="#999999" />
+                                </span>
+                            </Tooltip>
+                        </Flex>
+
 
                     </Box>
 
+
                 </Flex>
+
 
             </Flex>
 
@@ -139,7 +158,7 @@ export function Info({ continent, citys }: InfoProps) {
                                 maxW='256px'
                                 h='279px'
                             >
-                                <Image src={`${city.image}`} alt={city.name} h='173px' w='256px' borderTopRadius='base'/>
+                                <Image src={`${city.image}`} alt={city.name} h='173px' w='256px' borderTopRadius='base' />
 
                                 <Flex
                                     w='256px'
@@ -148,6 +167,7 @@ export function Info({ continent, citys }: InfoProps) {
                                     align='center'
                                     border='1px solid'
                                     borderColor='Highlight_50'
+                                    borderBottomRadius='base'
                                 >
                                     <Box ml='24px'>
 

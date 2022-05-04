@@ -34,11 +34,11 @@ interface ContinenteProps {
 export default function Continente({ continent, citys }: ContinenteProps) {
 
   // console.log(continent)
-  console.log(citys)
+  // console.log(citys)
   return (
     <>
       <HeaderContinente />
-      <BannerContinente />
+      <BannerContinente continent={continent} citys={citys}/>
       <Info continent={continent} citys={citys} />
 
     </>

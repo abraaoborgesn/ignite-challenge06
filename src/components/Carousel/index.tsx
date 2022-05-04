@@ -36,6 +36,7 @@ export function Carousel({continents}: CarouselProps) {
                 modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
                 autoplay={{ delay: 4000, pauseOnMouseEnter: true }}
                 loop
+                
             >
                 {continents.map( continent => (
                     <SwiperSlide
@@ -46,7 +47,7 @@ export function Carousel({continents}: CarouselProps) {
                         bgImage={continent.image}
                         w='100%'
                         h='100%'
-                        bgPosition={["100% 20%", "100% 20%", "100% 30%"]}
+                        bgPosition={["100% 20%", "100% 20%", "100% 48%"]}
                         align='center'
                         justify='center'
                         bgSize='cover'
@@ -57,7 +58,7 @@ export function Carousel({continents}: CarouselProps) {
                             <a >
                                 <Heading
                                     color='light.headingsAndText'
-                                    fontSize={['24px', '24px', '48px']}
+                                    fontSize={['30px', '30px', '48px']}
                                     fontWeight='700'
                                     textAlign='center'
                                 >
