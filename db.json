@@ -660,8 +660,8 @@
             "name": "Marrakech",
             "country": "Morocco",
             "continenteId": 5,
-            "imageFlag": "hongKong.svg",
-            "image": "hongKong.jpg"
+            "imageFlag": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg",
+            "image": "https://jpimg.com.br/uploads/2018/09/Praca-Jemaa-El-Fna-em-Marrakech-1-.jpg"
         },
         {
             "id": 76,

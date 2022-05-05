@@ -65,7 +65,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
 
 
-  console.log(continent.id)
+  // console.log(continent.id)
 
 
   const { data: cities } = await api.get<Cities[]>(`/cities`)
