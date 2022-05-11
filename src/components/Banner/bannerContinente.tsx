@@ -1,4 +1,4 @@
-import { Flex, Image, Text, useBreakpointValue } from "@chakra-ui/react";
+import { Flex, Text, useBreakpointValue } from "@chakra-ui/react";
 
 interface BannerContinentProps {
     citys: {

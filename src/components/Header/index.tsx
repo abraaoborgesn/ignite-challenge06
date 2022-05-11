@@ -1,10 +1,7 @@
 import { Flex, Box, Image, Text } from '@chakra-ui/react'
 import Link from 'next/link'
-import api from '../../services/api'
+
 export function Header() {
-
-
-
 
     return (
         <Flex

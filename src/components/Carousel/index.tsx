@@ -1,5 +1,4 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-import api from '../../services/api'
 
 import 'swiper/css'
 import 'swiper/css/navigation'
